@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Copy as mocking text",
+  "description": "This extension lets you copy text as mocked text.",
+  "version": "1",
+  "author": "Zaurbek Stark",
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  }
+}

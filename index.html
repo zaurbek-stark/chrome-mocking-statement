@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <textarea id="text-field" rows=10 cols=20></textarea>
+    <button onclick="mockThatText()">mOcK iT</button>
+    <div id="result"></div>
+  </body>
+  <script>
+    const mockThatText = () => {
+      const textField = document.getElementById('text-field');
+      const mockedTextArray = [...textField.value].map((letter, index) => {
+        if(index % 2 !== 0) return letter.toUpperCase();
+        return letter.toLowerCase();
+      });
+      document.getElementById('result').innerHTML = mockedTextArray.join('');
+    }
+  </script>
+</html>
