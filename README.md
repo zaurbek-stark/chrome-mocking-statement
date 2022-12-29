@@ -3,6 +3,7 @@
 This is the codebase for the Chrome extension that I built in this video. It turns the selected text into its mOcKeD vErSiOn and copies it in the clipboard.
 <div>
 <a href="https://youtu.be/ZR3Ohh_nxzM">
+  <img width="314" alt="image" src="https://user-images.githubusercontent.com/121587026/210021148-e036bb00-3bdd-4c8f-98bd-57c2f82f91c9.png">
 </a>
 </div>
 
